@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-class Model_LR:
+class LinearRegressionModel:
     def __init__(self, lr, epochs, batch_size, L1_potency, L2_potency):
         # metaparameters
         self.lr = lr

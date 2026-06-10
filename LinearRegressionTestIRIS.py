@@ -2,7 +2,7 @@ import pandas as pd
 import sklearn
 import numpy as np
 import matplotlib.pyplot as plt
-from LinearRegressionFromScratch import Model_LR as model
+from LinearRegressionFromScratch import LinearRegressionModel as model
 
 
 fig, ax = plt.subplots(2, 3)
