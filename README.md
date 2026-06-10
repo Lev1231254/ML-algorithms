@@ -2,24 +2,26 @@
 
 ## Clone
 
+```
 git clone https://github.com/Lev1231254/ML-algorithms.git
 cd ML-algorithms
+```
 
 ## Create venv
 
-python -m venv .venv
+`python -m venv .venv`
 
 ## Activate
 
-source .venv/bin/activate
+`source .venv/bin/activate`
 
 ## Install
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Run
 
-python main.py
+`python main.py`
 
 <h1>Linear Regression from Scratch (California Housing)</h1>
 
