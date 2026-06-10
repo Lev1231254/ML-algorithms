@@ -1,3 +1,42 @@
+## Installation
+## Requirements
+
+- Python 3.10+
+- Git
+
+### 1. Clone the repository
+
+```powershell
+git clone https://github.com/Lev1231254/ML-algorithms.git
+cd ML-algorithms
+```
+
+### 2. Create a virtual environment
+
+```powershell
+python -m venv .venv
+```
+
+### 3. Activate the virtual environment
+
+```powershell
+.venv\Scripts\activate
+```
+
+### 4. Install dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+### 5. Run the project
+
+```powershell
+python LinearRegressionTestIRIS.py
+```
+
+
+
 <h1>Linear Regression from Scratch (California Housing)</h1>
 
 <p>
