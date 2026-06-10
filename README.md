@@ -1,25 +1,25 @@
 # Installation on windows
 
-## Clone
+### Clone
 
 ```
 git clone https://github.com/Lev1231254/ML-algorithms.git
 cd ML-algorithms
 ```
 
-## Create venv
+### Create venv
 
 `python -m venv .venv`
 
-## Activate
+### Activate
 
 `source .venv/bin/activate`
 
-## Install
+### Install
 
 `pip install -r requirements.txt`
 
-## Run test script
+### Run test script
 
 `LinearRegressionTestIRIS`
 
