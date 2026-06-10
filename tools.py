@@ -1,5 +1,4 @@
 import numpy as np
-import math
 from LogisticRegressionFromScratch import LogisticRegressionModel
 
 def getHeatmapProbabilities(model, num_of_features, features_id, extent):
