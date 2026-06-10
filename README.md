@@ -1,3 +1,10 @@
+# Project description
+Educational machine learning project implementing several classical algorithms from scratch.
+
+The algorithms are implemented from scratch using NumPy only.
+No machine learning libraries such as scikit-learn are used for training or prediction.
+
+
 # Installation
 ## Requirements
 
@@ -30,12 +37,7 @@ python3 LogisticRegressionTestIRIS.py
 <img width="1536" height="852" alt="logitstic regression figure whaterver" src="https://github.com/user-attachments/assets/eccb11f0-7de8-4297-af45-2895a4ee560d" />
 
 
-# Project description
-Educational machine learning project implementing several classical algorithms from scratch.
-
-The algorithms are implemented from scratch using NumPy only.
-No machine learning libraries such as scikit-learn are used for training or prediction.
-
+# Details
 ### Linear Regression
 Example: 
 ```
