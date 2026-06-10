@@ -84,7 +84,7 @@ pip install -r requirements.txt
 ### 5. Run the project
 
 ```powershell
-python LinearRegressionTestIRIS.py
+python LogisticRegressionTestIRIS.py
 ```
 ## Linux
 ### 1. Clone the repository
@@ -115,5 +115,5 @@ pip install -r requirements.txt
 ### 5. Run the project
 
 ```bash
-python3 LinearRegressionTestIRIS.py
+python3 LogisticRegressionTestIRIS.py
 ```
