@@ -1,3 +1,35 @@
+# Installation
+## Requirements
+
+- Python 3.10+
+- Git
+
+## Windows (Powershell)
+
+```powershell
+git clone https://github.com/Lev1231254/ML-algorithms.git
+cd ML-algorithms
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python LogisticRegressionTestIRIS.py
+```
+
+## Linux (Bash)
+
+```bash
+git clone https://github.com/Lev1231254/ML-algorithms.git
+cd ML-algorithms
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 LogisticRegressionTestIRIS.py
+```
+
+## After running the example a window with graphs describing a Logistic Regression model should appear:
+<img width="1536" height="852" alt="logitstic regression figure whaterver" src="https://github.com/user-attachments/assets/eccb11f0-7de8-4297-af45-2895a4ee560d" />
+
+
 # Project description
 Educational machine learning project implementing several classical algorithms from scratch.
 
@@ -47,73 +79,3 @@ Implemented
 
 **KNN function:**
 - KNNFromScratch.*knn_predict(k : int, target_coordinates : list[int], data : np.array, labels : np.array)*
-
-
-# Installation
-## Requirements
-
-- Python 3.10+
-- Git
-
-## Windows
-### 1. Clone the repository
-
-```powershell
-git clone https://github.com/Lev1231254/ML-algorithms.git
-cd ML-algorithms
-```
-
-### 2. Create a virtual environment
-
-```powershell
-python -m venv .venv
-```
-
-### 3. Activate the virtual environment
-
-```powershell
-.venv\Scripts\activate
-```
-
-### 4. Install dependencies
-
-```powershell
-pip install -r requirements.txt
-```
-
-### 5. Run the project
-
-```powershell
-python LinearRegressionTestIRIS.py
-```
-## Linux
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Lev1231254/ML-algorithms.git
-cd ML-algorithms
-```
-
-### 2. Create a virtual environment
-
-```bash
-python3 -m venv .venv
-```
-
-### 3. Activate the virtual environment
-
-```bash
-source .venv/bin/activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Run the project
-
-```bash
-python3 LinearRegressionTestIRIS.py
-```
