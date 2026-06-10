@@ -1,4 +1,4 @@
-# Installation
+# Installation on windows
 
 ## Clone
 
@@ -19,9 +19,9 @@ cd ML-algorithms
 
 `pip install -r requirements.txt`
 
-## Run
+## Run test script
 
-`python main.py`
+`LinearRegressionTestIRIS`
 
 <h1>Linear Regression from Scratch (California Housing)</h1>
 
