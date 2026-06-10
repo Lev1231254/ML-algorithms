@@ -4,6 +4,7 @@
 - Python 3.10+
 - Git
 
+## Windows
 ### 1. Clone the repository
 
 ```powershell
@@ -34,7 +35,37 @@ pip install -r requirements.txt
 ```powershell
 python LinearRegressionTestIRIS.py
 ```
+## Linux
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Lev1231254/ML-algorithms.git
+cd ML-algorithms
+```
+
+### 2. Create a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+### 3. Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the project
+
+```bash
+python3 LinearRegressionTestIRIS.py
+```
 
 
 <h1>Linear Regression from Scratch (California Housing)</h1>
