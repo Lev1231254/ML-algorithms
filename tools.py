@@ -1,5 +1,6 @@
 import numpy as np
-from logisticRegressionFromScratch import LogisticRegressionModel
+import math
+from LogisticRegressionFromScratch import LogisticRegressionModel
 
 def getHeatmapProbabilities(model, num_of_features, features_id, extent):
         # make matrix of values
@@ -89,4 +90,3 @@ def paint(model, features_test_raw, labels_test, ax, fig, heatmapIndices, featur
             ax[2].legend()
 
         if titles_on: ax[2].set_title('Weights history')
-        
