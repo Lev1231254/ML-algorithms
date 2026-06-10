@@ -15,7 +15,7 @@ dataset = sklearn.datasets.fetch_california_housing().data
 # Labels - AveRooms
 
 learning_rate = 0.0001
-epochs = 5000
+epochs = 1000
 batch_size = 256
 
 
