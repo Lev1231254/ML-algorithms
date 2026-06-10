@@ -12,7 +12,7 @@ LinearRegressionTestIRIS.py
 Implemented 
 - Gradient Descent
 - L1 and L2 Regularization
-- Validation
+- Validation loss
 - Visualization
   
 ### Logistic Regression
@@ -35,7 +35,7 @@ Implemented
 - Algorithm
 - Search for best K (see KNNTestIRIS.ipynb)
 
-### Main classes and functions:
+### API:
 **Regression classes:**
 - LinearRegressionFromScratch.*LinearRegressionModel(self, lr, epochs, batch_size, L1_potency, L2_potency)*
   - .fit(...)
