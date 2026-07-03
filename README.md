@@ -4,6 +4,11 @@ Educational machine learning project implementing several classical algorithms f
 The algorithms are implemented from scratch using NumPy only.
 No machine learning libraries such as scikit-learn are used for training or prediction.
 
+Implemented:
+- Linear Regression
+- Logistic Regression
+- KNN
+
 
 # Installation
 ## Requirements
